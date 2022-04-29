@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 郑东旭(1733472703@qq.com)
+ * @date    2022-03-30 10:40
+ * @version $1$
+ */
+
+/*从上到下优先级递减*/
+li{
+    list-style: none;
+    border: 2px solid #111111;
+    box-sizing: border-box;
+}
+body{
+    background: #99bd8f;
+}
+.g-index{
+    width: 800px;
+    margin: 0 auto;
+    background: #cdd3f5;
+    border: 2px solid black;
+}
+.m-hd{
+    background: #99bd8f;
+    display: flex;
+    padding: 20px;
+    margin: 20px 20px;
+    border:2px solid black;
+}
+.m-hd>em{
+    flex: 1;
+}
+.m-hd>li{
+    width: 80px;
+    height: 80px;
+    background: #cdd3f5;
+}
+.m-hd>li+li{
+    margin-left: 40px;
+}
+.m-bd{
+    background: #99bd8f;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.m-bd>.m-lt{
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.m-bd>.m-lt>li:first-child{
+    width: 200px;
+    height: 300px;
+    background: #cdd3f5;
+}
+.m-bd>.m-lt>.m-ft{
+    width: 50px;
+    height: 50px;
+    background: #cdd3f5;
+}
+.m-bd>.m-lt>.m-ft+.m-ft{
+    margin-left: 25px;
+}
+.m-bd>.m-rt>li{
+    width: 480px;
+    height: 40px;
+    background: #cdd3f5;
+
+}
+.m-bd>.m-rt>li+li{
+    margin-top: 15px;
+}

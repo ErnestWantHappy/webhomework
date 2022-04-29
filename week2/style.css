@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-02-28 09:40:08
+ * @version $Id$
+ */
+
+/*从上到下优先级递减*/
+
+body{
+                color: #c0c0c0;
+            }
+            .m-bk{
+        position: absolute;
+        width: 1500px;
+        height: 700px;
+        background: url('2.png') no-repeat;
+        background-position: 650px 80px;
+        background-size: 300px 620px;
+        }
+        .m-menu{
+        height: 41px;
+        border-left: 70px solid rgb(255, 255, 255);
+        }
+        .m-menu a{
+        display: inline-block;
+        height: 41px;
+        padding: 0 20px;
+        font-size: 17px;
+        color: #c0c0c0;
+        text-decoration: none;
+        }
+        .zuo {
+            width: 600px;
+            height: 600px;
+            left: 70px;
+            top: 40px;
+            position: relative;
+            display: inline-block;
+            line-height: 15px;
+        }
+        .you{
+            left: 1150px;
+            top: 240px;
+            position: absolute;
+            display: inline-block;
+        }
+        .shang{
+            width: 600px;
+            height: 230px;
+            position: relative;
+        }
+        .zhong{
+            width: 600px;
+            height: 230px;
+            position: relative;
+        }
+        .xia{
+            width: 600px;
+            height: 200px;
+            position: relative;
+        }
+        .you1{
+            width: 350px;
+            height: 170px;
+            position: relative;
+            font-size: 20px;
+        }
+        .biaoti{
+            position: absolute;
+            left: 1090px;
+            top: 120px;
+        }
+        .hei{
+        color: rgb(0, 0, 0);
+        }

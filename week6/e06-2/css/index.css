@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 郑东旭(1733472703@qq.com)
+ * @date    2022-03-30 10:40
+ * @version $1$
+ */
+
+/*从上到下优先级递减*/
+body{
+    background: #99bd8f;
+}
+
+li{
+    list-style: none;
+    border: 2px solid #111111;
+    width: 370px;
+    height: 20px;
+    margin: 7px 0 0 8px;
+    background: #FFFFFF;
+    font-size: 12px;
+}
+
+.g-index{
+    width: 390px;
+    height: 370px;
+    background: #FFFFEB;
+    border: 2px solid black;
+}
+
+.m-hd{
+    margin: 0 0 0 -1px;/*为了确保中间那根线完美贴合采取的操作*/
+    width: 392px;
+    height: 260px;
+    border-bottom: 2px solid black;
+}
+
+.m-bd{
+    width: 390px;
+    height: 108px;
+    background: #FFE6F4;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-title{
+    display: flex;
+}
+
+.m-title>strong{
+    margin: 2px 0 0 5px;
+}
+
+.m-message{
+    display: flex;
+}
+
+.m-message>strong{
+    margin: 2px 0 0 5px;
+    color: #F71347;
+}
+
+.m-money{
+    height: 30px;
+    display: flex;
+}
+
+.m-money>span:nth-child(1){
+    margin: 2px 0 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F71347;
+}
+
+.m-money>span:nth-child(1):before{
+    content: "￥";
+    font-size: 12px;
+}
+
+.m-money>span:nth-child(2){
+    margin: 12px 0 0 8px;
+    font-size: 12px;
+     text-decoration:line-through;
+}
+
+.m-money>span:nth-child(3){
+    margin: 12px 0 0 145px;
+    font-size: 12px;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-02-28 09:40:08
+ * @version $Id$
+ */
+
+/*从上到下优先级递减*/
+
+#p1 {
+            
+        }
+#m-box{
+    width: 700px;
+    background-color: pink;
+}

@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1427",
+      "name": "公交",
+      "font_class": "gongjiao",
+      "unicode": "f01f2",
+      "unicode_decimal": 983538
+    },
+    {
+      "icon_id": "792221",
+      "name": "train-2-火车",
+      "font_class": "train2huoche",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1133262",
+      "name": "星号",
+      "font_class": "xinghao",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "7335533",
+      "name": "显示屏",
+      "font_class": "xianshiping",
+      "unicode": "eb2f",
+      "unicode_decimal": 60207
+    },
+    {
+      "icon_id": "8351828",
+      "name": "卡片",
+      "font_class": "qiapian",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "10907201",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e8cd",
+      "unicode_decimal": 59597
+    },
+    {
+      "icon_id": "12103031",
+      "name": "云",
+      "font_class": "yun",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "16562594",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "18441418",
+      "name": "天气，太阳，白天，起床",
+      "font_class": "tianqitaiyangqichuang",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "18931152",
+      "name": "打印",
+      "font_class": "dayin",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}

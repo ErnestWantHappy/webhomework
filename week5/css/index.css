@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-02-28 09:40:08
+ * @version $Id$
+ */
+
+/*从上到下优先级递减*/
+body{
+    padding: 10px;
+}
+
+.m-index{
+    background: url("../img/bks.png") no-repeat ;
+    background-size: 1252px 1204px;
+    opacity: 1;
+    padding: 20px;
+    width: 1252px;
+    height: 1204px;
+    margin: 0 auto;/*设置整体页面居中显示*/
+}
+
+.m-tl{
+    margin: 28px 0 10px 100px;/*上部分与边界间距*/
+}
+
+.m-list{
+    margin: 50px 0px 0px 108px;
+}
+
+.m-img{
+    width: 500px;
+    height: 320px;
+    float: left;
+}
+
+.m-tl:after{
+    content: '';
+    display: block;/*此元素将显示为块级元素，此元素前后会带有换行符。*/
+    clear: both;/*在左右两侧均不允许浮动元素。*/
+}
+
+.m-new-info{
+    margin: 47px 0 0 548px;
+}
+
+.m-new-info>h1{
+    margin: 0;
+    font-size: 21px;
+    padding: 0 0 10px 0;
+    position: relative;/*生成相对定位的元素，相对于其正常位置进行定位。*/
+}
+
+.m-new-info>h1:before{
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #006699;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+}
+
+.m-new-info>p{
+    font-size: 17px;
+    line-height: 30px;
+    margin: 50px 140px 20px 0;
+}
+
+.m-fun{
+    position: relative;
+    margin: 40px 0 0 0;
+}
+
+.m-fun>span{
+    position: absolute;
+    left: 170px;
+    color: #fff;
+}
+
+.m-fun>input{
+    width: 200px;
+    height: 40px;
+    background: #0169B2;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    color: #fff;
+    text-align: left;
+    padding: 0 0 0 20px;
+    margin: -20px 0 0 0;
+}
+
+.m-top{
+    font-size: 32px;
+    color: #0061B6;
+    padding: 0 0 20px 0;
+     border-bottom: 2px  solid #DDDDDD;
+}
+.m-top>span:nth-child(2){
+    color: black;
+    margin: -10px 0 0 10px;
+    font-size: 19px;
+}
+
+.m-top>button{
+    font-size: 12px;
+    border-radius: 8px;
+    border: none;
+    margin: -5px 0 0 590px;
+    width: 155px;
+    height: 40px;
+    background: #0169B2;
+    color: #fff;
+}
+
+.m-mid{
+    margin: 10px 0 0 -5px;
+    font-size: 15px;
+    line-height: 89px;
+    /*border-bottom: 1px solid #DDDDDD;*/
+}
+.m-box{
+     border-bottom: 1px  solid #DDDDDD;
+}
+
+.m-box>span:nth-child(2){
+    margin: 0px 0 0 165px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.nan1{
+    margin: -670px 0 0 195px;
+    width: 120px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background: #336699;
+}
+.nan2{
+    margin: 65px 0 0 195px;
+    width: 120px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background: #5AAE73;
+}
+
+.nan3{
+   margin: 65px 0 0 195px;
+    width: 120px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background: #5AAE73;
+}
+
+
+.stage_2{
+    width: 1252px;
+    height: 420px;
+    margin: 10px 0px 0px 0px;
+    background-color: #f8f8f8;
+    opacity: 1;
+}
+.s2-m1{
+    float: left;
+    width: 600px;
+    height: 415px;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.s2-m1-t{
+    margin: 12px 0px 0px 45px;
+    font-size: 25px;
+    color: #5d94d4;
+    border-left:8px solid #5d94d4;
+}
+.s2-m2{
+    float: right;
+    width: 600px;
+    height: 415px;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.s2-m2-t{
+    margin: 14px 0px 0px 45px;
+    font-size: 25px;
+    color: #5d94d4;
+    border-left:8px solid #5d94d4;
+}
+.F{
+    width: 540px;
+    height: 320px;
+    margin: 20px 0px 0px 48px;
+    justify-content:center;
+    text-align: center;
+    background-color: white;
+    border: 3px solid #ccc;
+}
+.f-txt{
+    margin: 35px 0px 0px 0px;
+}
+.f-txt>li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.f-l2{
+    font-size: 42PX;
+    color: #0268aa;
+    font-weight: bold;
+}
+.f-l3{
+    height: 60px;
+    line-height:25px;
+    border-bottom: 3px solid #ddd;
+}
+.f-l4{
+    font-size: 20px;
+    margin-top: 45px; 
+    color: #4b8fda;
+}
+.F>button{
+    width: 420px;
+    height: 75px;
+    margin-top: 70px;
+    background-color: #0169b2;
+    border-radius:10px;
+    font-size: 20PX;
+    color: white;
+}
+.F>button>span{
+    margin: 20px;
+}

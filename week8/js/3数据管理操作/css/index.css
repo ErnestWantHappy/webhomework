@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-02-28 09:40:08
+ * @version $Id$
+ */
+
+/*从上到下优先级递减*/
+
+#mycanvas {
+            position: absolute;
+            left: 10;
+            top: 10;
+            background-color: white;
+        }
